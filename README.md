@@ -1,5 +1,7 @@
 ## Seam Carving for Content Aware Image Resizing
-**Specifications:**https://www.coursera.org/learn/algorithms-part2/programming/cOdkz/seam-carving
+
+**Specifications:** 
+https://www.coursera.org/learn/algorithms-part2/programming/cOdkz/seam-carving
 
 **Optimization Tips**
 * When finding a seam, call energy() at most once per pixel. For example, you can save the energies in a local variable energy[][] and access the information directly from the 2D array (instead of recomputing from scratch).
